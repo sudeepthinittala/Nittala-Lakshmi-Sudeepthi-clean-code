@@ -24,14 +24,23 @@ public class App
 >>>>>>> second commit
     		SimpleInterest s=new SimpleInterest();
     		s.getValues();
+<<<<<<< HEAD
     		LOGGER.info(s.CalculateSimpleInterest());
+=======
+    		
+    		System.out.println(s.CalculateSimpleInterest());
+>>>>>>> commit five
     		CompoundInterest c=new CompoundInterest();
     		c.getValues();
     		LOGGER.info(c.CalculateCompoundInterest());
     		Construction con=new Construction();
     		LOGGER.info("Enter Area of the house");
     		float area=sc.nextFloat();
+<<<<<<< HEAD
     		LOGGER.info("Enter the type of material\n1.Standard \n2.Above Standard\n3.High Standard Materials\n4.High Standard Material and Fully Automated Home");
+=======
+    		System.out.println("Enter the type of material \n1.Standard \n2.Above Standard\n3.High Standard Materials\n4.High Standard Material and Fully Automated Home");
+>>>>>>> commit five
     		int flag=sc.nextInt();
     		LOGGER.info("Cost for Construction is:"+con.construct(flag,area));
     		
